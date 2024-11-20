@@ -3,6 +3,7 @@ import "./About.css";
 import Icons from "../components/Icons";
 import LottieAnimation from "../components/LottieAnimation";
 import codingAnimation from '../assets/codingAnimation.json'
+import my_cv from '../assets/my_cv.pdf';
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
           <div className="btn-icons">
             <Icons />
           </div>
-          <button className="cv-btn">Download CV</button>
+          <button className="cv-btn"><a href="../assets/my_cv.pdf" download={my_cv}>Download CV</a></button>
         </div>
 
         {/* Right Section */}
