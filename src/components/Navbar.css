@@ -1,0 +1,48 @@
+.container{
+    max-width:100vw;
+    min-height: 80px;
+    /* border-bottom: 1px solid grey; */
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Ensure it stays at the top */
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    /* padding: 0 1rem; */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgb(227, 225, 219); */
+    /* Semi-transparent white background */
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease; 
+    
+}
+.logo{
+    color: black;
+    font-weight: 900;
+}
+.container ul{
+    display: flex;
+}
+ul li{
+    padding: 0 3rem;
+    color: black;
+}
+.btn{
+    padding: 8px 8px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+@media (width ) {
+    
+}
