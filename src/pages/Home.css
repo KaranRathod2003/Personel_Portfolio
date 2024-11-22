@@ -27,3 +27,18 @@
     min-height: 50dvh;
     background-color: rgb(128, 234, 234);
 } */
+
+@media  screen and (width < 1200px) {
+    
+}
+@media  screen and (width < 450px) {
+    .header1 h1{
+        font-size: 5rem;
+    }
+    .header2 h1{
+        font-size: 5rem;
+    }
+    .para{
+        font-size: 0.9rem;
+    }
+}

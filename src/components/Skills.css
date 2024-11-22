@@ -59,4 +59,13 @@
     color: #333;
     margin: 0;
   }
+
+  @media screen and (width < 450px) {
+    .skills-section{
+      padding: 1rem 1rem;
+    }
+    .skill-card{
+      padding: 1rem;
+    }
+  }
   

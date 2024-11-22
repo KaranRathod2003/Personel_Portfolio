@@ -36,7 +36,7 @@ const About = () => {
           <div className="animation-box">
             {/* <div className="coding-animation"></div>
              */}
-              <LottieAnimation animationData={codingAnimation} style={{ width: "80%", height: "80%" }} />
+              <LottieAnimation animationData={codingAnimation} style={{ width: "95%", height: "95%" }} />
           </div>
         </div>
       </div>

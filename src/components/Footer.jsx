@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="footer-content">
         <span className="clock">{time.toLocaleTimeString()} IST</span>
         <span className="copyright">© 2024 KARAN RATHOD. All rights reserved.</span>
-        <Icons />
+        <Icons className="icons" />
       </div>
     </footer>
   );

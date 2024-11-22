@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
+import { CiMenuFries } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,9 @@ const Navbar = () => {
         <NavLink to='/contact'><li>Contact</li></NavLink>
     </ul>
     <button className='btn'>light/dark</button>
+    <div className="menu">
+      <h1><CiMenuFries /></h1>
+    </div>
    </div>
    
    </>

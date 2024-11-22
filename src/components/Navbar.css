@@ -43,6 +43,35 @@ ul li{
     background-color: rgb(41, 39, 39);
     color: white;
 }
-@media (width ) {
+.menu{
+    display: none;
+}
+
+@media screen and (width > 1200px) {
     
 }
+@media screen and (width < 1200px) and (width > 450px) {
+   
+}
+@media screen and (width < 450px) {
+    .container{
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    .menu{
+        display: block;
+        font-size: small;
+        font-weight: bold;
+    }
+    ul li{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+}
+
+
+
+
+
