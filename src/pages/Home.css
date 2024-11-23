@@ -28,7 +28,8 @@
     background-color: rgb(128, 234, 234);
 } */
 .span{
-    color: rgb(248, 205, 98);
+    /* color: rgb(248, 205, 98); */
+    color: rgb(98, 248, 138);
 }
 @media  screen and (width < 1200px) {
     

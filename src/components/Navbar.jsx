@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className="container">
         <div >
-          <NavLink className="logo" to='/'>Karann</NavLink>
+          <NavLink className="logo" to='/'>Karan<span className='nav-span'>n</span></NavLink>
         </div>
         <ul>
           <NavLink to='/projects'><li>Projects</li></NavLink>

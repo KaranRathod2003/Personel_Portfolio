@@ -46,7 +46,9 @@ ul li{
 .menu{
     display: none;
 }
-
+.nav-span{
+    color: rgb(98, 248, 138);
+}
 .active li{
     color: rgb(135, 131, 131);
 }
