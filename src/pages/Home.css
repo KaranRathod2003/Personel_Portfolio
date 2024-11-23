@@ -27,7 +27,9 @@
     min-height: 50dvh;
     background-color: rgb(128, 234, 234);
 } */
-
+.span{
+    color: rgb(248, 205, 98);
+}
 @media  screen and (width < 1200px) {
     
 }

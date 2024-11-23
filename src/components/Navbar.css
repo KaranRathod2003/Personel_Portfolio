@@ -47,7 +47,9 @@ ul li{
     display: none;
 }
 
-
+.active li{
+    color: rgb(135, 131, 131);
+}
 /* Mobile Menu Styling */
 .mobile-menu {
     display: flex;

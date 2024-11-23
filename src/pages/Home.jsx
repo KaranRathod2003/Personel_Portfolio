@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <div className="main">
      <div className="header1"><h1>Hi! I'm</h1></div>
-     <div className="header2"><h1>Karann</h1></div>
+     <div className="header2"><h1>Karan<span className='span'>n</span></h1></div>
      <div className="para">Welcome to my Online space. Your Friendly AI powered Full Stack Developer</div>
     </div>
     <Skills />
