@@ -47,6 +47,43 @@ ul li{
     display: none;
 }
 
+
+/* Mobile Menu Styling */
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Adjust based on navbar height */
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Ensure it's above everything else */
+  }
+  
+  .mobile-menu li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .mobile-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hide menu-open links by default */
+  ul.menu-open {
+    display: none; /* Prevent overlap */
+  }
+  
+
+
+
+
+
+
 @media screen and (width > 1200px) {
     
 }
