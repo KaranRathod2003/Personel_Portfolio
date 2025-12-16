@@ -8,6 +8,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
   }
+  const handleClick = () => {
+    alert('Feature is in development phase');
+  }
 
 
   return (
@@ -21,7 +24,7 @@ const Navbar = () => {
           <NavLink to='/about'><li>About</li></NavLink>
           <NavLink to='/contact'><li>Contact</li></NavLink>
         </ul>
-        <button className='btn'>light/dark</button>
+        <button className='btn' onClick={handleClick}>light/dark</button>
         <div className="menu" onClick={toggleMenu}>
           <h1><CiMenuFries /></h1>
         </div>
