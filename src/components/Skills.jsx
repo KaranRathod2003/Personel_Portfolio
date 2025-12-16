@@ -1,30 +1,31 @@
 import React from 'react';
 import './Skills.css';
-import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaBootstrap, FaJava  } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaBootstrap, FaJava,} from 'react-icons/fa';
 import { RiTailwindCssFill } from "react-icons/ri";
-import { DiDjango } from "react-icons/di";
+import { GiMaterialsScience } from "react-icons/gi";
+import { SiExpress, SiTypescript  } from "react-icons/si";
 import { IoIosLeaf } from "react-icons/io";
 
 const Skills = () => {
   const skills = [
+    { icon: <IoIosLeaf />, name: 'Mongo DB'},
+     { icon: <SiExpress />, name: 'Express.js' },
     { icon: <FaReact />, name: 'React' },
     { icon: <FaNodeJs />, name: 'Node.js' },
-    { icon: <FaDatabase />, name: 'Database' },
+    { icon: <FaJsSquare />, name: 'JavaScript' },
+    { icon: <FaJava />, name: 'Java'},
+    {icon : <SiTypescript />, name: 'TypeScript'},
+    { icon: <GiMaterialsScience />, name: 'Material UI' },
     { icon: <FaHtml5 />, name: 'HTML5' },
     { icon: <FaCss3Alt />, name: 'CSS3' },
-    { icon: <FaJsSquare />, name: 'JavaScript' },
-    { icon: <FaPython />, name: 'Python'},
-    { icon: <FaJava />, name: 'Java'},
+    { icon:<RiTailwindCssFill />, name:'Tailwind CSS'},
     { icon: <FaBootstrap />, name: 'Bootstrap'},
-    { icon: <DiDjango />, name: 'Django'},
-    { icon: <IoIosLeaf />, name: 'Mongo DB'},
-    { icon:<RiTailwindCssFill />, name:'Tailwind CSS'    }
     // Add more skills as needed
   ];
 
   return (
     <div className="skills-section">
-      <h2>Core Competencies</h2>
+      <h2><span className=''>Core</span>  Competencies</h2>
       <div className="skills-container">
         {skills.map((skill, index) => (
           <div className="skill-card" key={index}>
