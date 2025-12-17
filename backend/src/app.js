@@ -1,6 +1,5 @@
 import express from 'express';
 import cors from 'cors';
-import e from 'cors';
 
 const app = express();
 
