@@ -1,6 +1,6 @@
 import {Router} from 'express';
 
-import { trackProjectClick } from '../controllers/analytics.controller';
+import { trackProjectClick } from '../controllers/analytics.controller.js';
 
 const router = Router();
 
