@@ -7,7 +7,7 @@ const trackProjectClick = async(req, res) => {
         const projectName = req.body.projectName;
         if(!projectName) return res.status(204).end(); // for testing only...
 
-        await ProjectStat.findOneAndUpdate({ projectName }, {$inc: {clickCount: 1}}, {upsert: true });
+        await ProjectStat.findOneAndUpdate({ projectName }, {$inc: {clickCount: 1}}, {upsert: true });  // upsert
 
         console.log("Project click tracked");
         res.status(204).end();
